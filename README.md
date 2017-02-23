@@ -1,7 +1,7 @@
 LoL Mastery Manager New Client v0.5
 ===================
 
-[![Github Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-new-client/latest/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/latest)
+[DOWNLOAD](https://github.com/dewster/lol-mastery-manager-new-client/releases/latest)
 
 > **NOTICE:** Only work 1280x720 client size.
 
