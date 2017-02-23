@@ -1,0 +1,276 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LoLMasteryManager
+</name>
+</assembly>
+<members>
+<member name="T:LoLMasteryManager.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LoLMasteryManager.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LoLMasteryManager.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:LoLMasteryManager.My.Resources.Resources.ChampionGGUrl">
+<summary>
+  Looks up a localized string similar to http://champion.gg.
+</summary>
+</member>
+<member name="P:LoLMasteryManager.My.Resources.Resources.DataDragonUrl">
+<summary>
+  Looks up a localized string similar to http://ddragon.leagueoflegends.com/cdn/.
+</summary>
+</member>
+<member name="P:LoLMasteryManager.My.Resources.Resources.GitHubLatestReleaseUrl">
+<summary>
+  Looks up a localized string similar to https://github.com/maxdeviant/lol-mastery-manager/releases/latest.
+</summary>
+</member>
+<member name="P:LoLMasteryManager.My.Resources.Resources.LeagueClientWindowTitle">
+<summary>
+  Looks up a localized string similar to PVP.net Client.
+</summary>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ScrapeChampions">
+ <summary>
+ Scrapes the list of champions from Champion.GG.
+ </summary>
+ <returns>A list of champions.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ExtractChampionKey(HtmlAgilityPack.HtmlNode)">
+ <summary>
+ Extracts the champion key from the given node.
+ </summary>
+ <param name="championNode">The node containing the champion data.</param>
+ <returns>The key for the champion in the given node.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ExtractChampionName(HtmlAgilityPack.HtmlNode)">
+ <summary>
+ Extracts the champion name from the given node.
+ </summary>
+ <param name="championNode">The node containing the champion data.</param>
+ <returns>The name of the champion in the given node.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ExtractChampionRoles(HtmlAgilityPack.HtmlNode)">
+ <summary>
+ Extracts the list of possible roles for the champion in the given node.
+ </summary>
+ <param name="championNode">The node containing the champion data.</param>
+ <returns>The list of possible roles for the champion in the given node.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ScrapePatchNumber">
+ <summary>
+ Scrapes the current patch number from Champion.GG.
+ </summary>
+ <returns>The current patch number that Champion.GG is serving data for.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ScrapeChampionMasteries(System.String,System.String)">
+ <summary>
+ Scrapes the list of mastery pages for the champion with the specified key.
+ </summary>
+ <param name="championKey">The key of the champion to retreive the mastery pages for.</param>
+ <param name="role">The role to retrieve the mastery pages for.</param>
+ <returns>A list of mastery pages.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ExtractMasteries(HtmlAgilityPack.HtmlNode)">
+ <summary>
+ Extracts the list of mastery pages from the given node.
+ </summary>
+ <param name="container">The node containing the mastery data.</param>
+ <returns>The list of mastery pages extracted from the given node.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.BuildMasteryPage(System.String,System.String,LoLMasteryManager.Stats,System.Collections.Generic.List{LoLMasteryManager.Models.Mastery})">
+ <summary>
+ Builds a mastery page from the given information
+ </summary>
+ <param name="championKey">The key of the champion this mastery page is intended for.</param>
+ <param name="role">The role this mastery page is intended for.</param>
+ <param name="stat">The stats this mastery page is based on.</param>
+ <param name="masteries">The masteries belonging to this mastery page.</param>
+ <returns>A mastery page.</returns>
+ <remarks>The mastery page will not have a champion name set. This must be done afterwards.</remarks>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.GetMastery(System.Int32)">
+ <summary>
+ Retrieves a mastery from the local data file by its ID.
+ </summary>
+ <param name="id">The ID of the mastery to retrieve.</param>
+ <returns>A mastery.</returns>
+</member>
+<member name="M:LoLMasteryManager.ChampionGG.Downloader.ExtractAssignedMasteryRanks(HtmlAgilityPack.HtmlNode)">
+ <summary>
+ Extracts the number of assigned mastery ranks from the given node.
+ </summary>
+ <param name="masteryNode">The node to extract the mastery ranks from.</param>
+ <returns>The number of assigned ranks for the mastery contained in the given node.</returns>
+</member>
+<member name="M:LoLMasteryManager.Extensions.GetName(LoLMasteryManager.Stats@)">
+ <summary>
+ Gets the human-readable name for the given stat.
+ </summary>
+ <param name="stat">The stat value to get the name of.</param>
+ <returns>The human-readable name for the given stat.</returns>
+</member>
+<member name="M:LoLMasteryManager.Extensions.GetAbbreviation(LoLMasteryManager.Stats@)">
+ <summary>
+ Gets the abbreviation for the given stat.
+ </summary>
+ <param name="stat">The stat value to get the abbreviation for.</param>
+ <returns>The abbreviation for the given stat.</returns>
+</member>
+<member name="T:LoLMasteryManager.SW">
+ <summary>
+ Possible nCmdShow values for ShowWindow.
+ </summary>
+ <remarks>https://msdn.microsoft.com/en-us/library/windows/desktop/ms633548(v=vs.85).aspx</remarks>
+</member>
+<member name="F:LoLMasteryManager.SW.HIDE">
+ <summary>
+ Hides the window and activates another window.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWNORMAL">
+ <summary>
+ Activates and displays a window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when displaying the window for the first time.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWMINIMIZED">
+ <summary>
+ Activates the window and displays it as a minimized window.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.MAXIMIZE">
+ <summary>
+ Maximizes the specified window.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWMAXIMIZED">
+ <summary>
+ Activates the window and displays it as a maximized window.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWNOACTIVATE">
+ <summary>
+ Displays a window in its most recent size and position. This value is similar to SW_SHOWNORMAL, except that the window is not activated.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOW">
+ <summary>
+ Activates the window and displays it in its current size and position.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWMINNOACTIVE">
+ <summary>
+ Displays the window as a minimized window. This value is similar to <see cref="F:LoLMasteryManager.SW.SHOWMINIMIZED"/>, except the window is not activated.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWNA">
+ <summary>
+ Displays the window in its current size and position. This value is similar to <see cref="F:LoLMasteryManager.SW.SHOW"/>, except that the window is not activated.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.RESTORE">
+ <summary>
+ Activates and displays the window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag when restoring a minimized window.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.SHOWDEFAULT">
+ <summary>
+ Sets the show state based on the SW_ value specified in the STARTUPINFO structure passed to the CreateProcess function by the program that started the application.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.SW.FORCEMINIMIZE">
+ <summary>
+ Minimizes a window, even if the thread that owns the window is not responding. This flag should only be used when minimizing windows from a different thread.
+ </summary>
+</member>
+<member name="M:LoLMasteryManager.MasteryAssigner.AssignMastery(LoLMasteryManager.Models.Mastery)">
+ <summary>
+ Assigns a mastery in the mastery window.
+ </summary>
+ <param name="mastery">The mastery to assign.</param>
+</member>
+<member name="T:LoLMasteryManager.MasteryLocator">
+ <summary>
+ A class for handling the location of masteries within an image.
+ </summary>
+</member>
+<member name="T:LoLMasteryManager.MasteryLocator.ArgbColor">
+ <summary>
+ The representation of an ARGB color.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.MasteryLocator.ArgbColor.A">
+ <summary>
+ The value of the alpha channel.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.MasteryLocator.ArgbColor.R">
+ <summary>
+ The value of the red channel.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.MasteryLocator.ArgbColor.G">
+ <summary>
+ The value of the green channel.
+ </summary>
+</member>
+<member name="F:LoLMasteryManager.MasteryLocator.ArgbColor.B">
+ <summary>
+ The value of the blue channel.
+ </summary>
+</member>
+<member name="M:LoLMasteryManager.MasteryLocator.ArgbColor.FromArgb(System.Byte,System.Byte,System.Byte,System.Byte)">
+ <summary>
+ Creates a new <see cref="T:LoLMasteryManager.MasteryLocator.ArgbColor"/> from the specified ARGB channels.
+ </summary>
+ <param name="a">The value of the alpha channel.</param>
+ <param name="r">The value of the red channel.</param>
+ <param name="g">The value of the green channel.</param>
+ <param name="b">The value of the blue channel.</param>
+ <returns>An ARGB color with the specified channels.</returns>
+</member>
+<member name="M:LoLMasteryManager.MasteryLocator.ArgbColor.Equals(System.Object)">
+ <summary>
+ Determines whether this instance and a specified object, which must also be an <see cref="T:LoLMasteryManager.MasteryLocator.ArgbColor"/> object, have the same value.
+ </summary>
+ <param name="obj"></param>
+ <returns></returns>
+</member>
+<member name="M:LoLMasteryManager.MasteryLocator.GetMasteryPosition(System.String,System.String)">
+ <summary>
+ Gets the position of the specified mastery image within the client image.
+ </summary>
+ <param name="clientImagePath">The path to the image of the client to search for the mastery in.</param>
+ <param name="masteryImagePath">The path to the mastery image to search for in the client image.</param>
+ <returns>The position of the mastery image within the client image.</returns>
+</member>
+<member name="M:LoLMasteryManager.MasteryLocator.GetMasteryPosition(System.Drawing.Image,System.Drawing.Image)">
+ <summary>
+ Gets the position of the specified mastery image within the client image.
+ </summary>
+ <param name="clientImage">The iamge of the client to search for the mastery in.</param>
+ <param name="masteryImage">The mastery iamge to search for in the client image.</param>
+ <returns>The position of the mastery image within the client image.</returns>
+</member>
+<member name="M:LoLMasteryManager.MasteryLocator.GetSubImagePositions(System.Drawing.Bitmap,System.Drawing.Bitmap)">
+ <summary>
+ Returns all positions of the specified subimage within the specified image.
+ </summary>
+ <param name="image">The bitmap to search for the subimage in.</param>
+ <param name="subImage">The bitmap to search for within the main image.</param>
+ <returns>A list of positions that the subimage was found in the main image.</returns>
+</member>
+</members>
+</doc>
