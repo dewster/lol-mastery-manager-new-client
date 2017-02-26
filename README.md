@@ -40,7 +40,7 @@ I can't give you any kind of update now or anytime in the immediate future, but 
 As of right now only Windows is supported, but OS X support is being investigated.
 
 ### Big high five to:
-MadScripts https://github.com/MadScripts - Creat original Mastery Manager v1
+ Maxdeviant https://github.com/maxdeviant/ - Creat original Mastery Manager v1
 
 
-Maxdeviant https://github.com/maxdeviant/ - Fixed Mastery Manager v1
+ MadScripts https://github.com/MadScripts - Fixed Mastery Manager v1
