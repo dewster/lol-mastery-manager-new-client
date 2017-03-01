@@ -1,18 +1,26 @@
-LoL Mastery Manager New Client v0.5
-===================
+![Logo](http://dewster.hu/git/logo.png)
 
-[DOWNLOAD](https://github.com/dewster/lol-mastery-manager-new-client/releases/latest)
+============================================================================
 
-> **NOTICE:** Only work to 1280x720 client size.
+
+| Version        | Description           | Status  |
+| ------------- |:-------------:| -----:|
+| LoL Mastery Manager v0.5      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-master-new-client/latest/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/releases/tag/v0.5ENG) |
+| LoL Mesterség Manager v0.5     | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues)      |  [![Github Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-master-new-client/latest/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/releases/tag/v0.5HUN) |
+| Lol Mastery Manager v1.0 | read to-do      |   ![Github Releases](https://img.shields.io/badge/status-85%25-673ab7.svg?style=flat-square)|
+
+
+*==> **NOTICE:** Only work to 1280x720 client size==*.
 
 A tool for managing mastery pages in League of Legends. Inspired by [Championify](https://github.com/dustinblackman/Championify).
 
-![screenshot ](Screenshot.png)
+![screenshot ](http://dewster.hu/git/Screenshot.png)
 
 [See it in action! -> Menu](https://raw.githubusercontent.com/dewster/lol-mastery-manager-master-new-client/master/Example%201%20-%20Menu.gif)
 
 
 [See it in action! -> In Game](https://raw.githubusercontent.com/dewster/lol-mastery-manager-master-new-client/master/Example%201%20-%20In%20Game.gif)
+
 
 Features
 --------
@@ -24,7 +32,8 @@ FAQ
 ---
 
 ### Why is it not properly assigning masteries?
-Calculating the positioning of the mastery trees is hard to get right for all screen sizes. Only work 1280x720 client size.
+Calculating the positioning of the mastery trees is hard to get right for all screen sizes.
+**==Only work 1280x720 client size.==**
 ### Will I get banned for using this?
 Riot Sargonas has stated the following on the matter:
 
@@ -39,8 +48,16 @@ I can't give you any kind of update now or anytime in the immediate future, but 
 ### Can I run it on Mac OS X?
 As of right now only Windows is supported, but OS X support is being investigated.
 
-### Big high five to:
- Maxdeviant https://github.com/maxdeviant/ - Creat original Mastery Manager v1
+Todo
+---
+- [ ] Mastery page name problem
+- [ ] 1024x576 screen size support
+- [ ] Use [Beta.Champion.gg Data](http://beta.champion.gg/faq)
+- [ ] Force Mastery Page Download
 
 
- MadScripts https://github.com/MadScripts - Fixed Mastery Manager v1
+Big high five to:
+---
+ **[Maxdeviant](https://github.com/maxdeviant)** - [Creat original Mastery Manager v1](https://github.com/maxdeviant/lol-mastery-manager)
+
+**[MadScripts]( https://github.com/MadScripts)** - [Fixed Mastery Manager v1](https://github.com/MadScripts/lol-mastery-manager)
