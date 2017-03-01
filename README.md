@@ -10,7 +10,7 @@
 | Lol Mastery Manager v1.0 | read to-do      |   ![Github Releases](https://img.shields.io/badge/status-85%25-673ab7.svg?style=flat-square)|
 
 
-*==> **NOTICE:** Only work to 1280x720 client size==*.
+**NOTICE:** Only work to 1280x720 client size
 
 A tool for managing mastery pages in League of Legends. Inspired by [Championify](https://github.com/dustinblackman/Championify).
 
