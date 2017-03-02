@@ -1,12 +1,11 @@
-![Logo](http://dewster.hu/git/logo.png)
-
-============================================================================
+#LoL Mastery Manager
 
 
 | Version        | Description           | Status  |
 | ------------- |:-------------:| -----:|
-| LoL Mastery Manager v1.0      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-master-new-client/latest/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/releases/tag/v0.5ENG) |
-| LoL Mesterség Manager v1.0     | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues)      |  [![Github Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-master-new-client/latest/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/releases/tag/v0.5HUN) |
+| LoL Mastery Manager v1.0      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-new-client/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/tag/eng) |
+| LoL Mesterség Manager v1.0     | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues)      |  [![Github Releases](https://img.shields.io/github/downloads/dewster/lol-mastery-manager-new-client/total.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/tag/hun) |
+| Development     | - |  ![Github Releases](https://img.shields.io/badge/status-supported-9C27B0.svg?style=flat-square) |
   
 
 
