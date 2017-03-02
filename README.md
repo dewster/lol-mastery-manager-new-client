@@ -57,6 +57,6 @@ Todo
 
 Big high five to:
 ---
- **[Maxdeviant](https://github.com/maxdeviant/) ** - [Creat original Mastery Manager v1](https://github.com/maxdeviant/lol-mastery-manager)
+ **[Maxdeviant](https://github.com/maxdeviant)** - [Creat original Mastery Manager v1](https://github.com/maxdeviant/lol-mastery-manager)
 
 **[MadScripts]( https://github.com/MadScripts)** - [Fixed Mastery Manager v1](https://github.com/MadScripts/lol-mastery-manager)
