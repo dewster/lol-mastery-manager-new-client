@@ -49,8 +49,8 @@ As of right now only Windows is supported, but OS X support is being investigate
 
 Todo
 ---
-- [x] Mastery page name problem
-- [x] 1024x576 screen size support
+- [x] ~~Mastery page name problem~~
+- [x] ~~1024x576 screen size support~~
 
 
 
