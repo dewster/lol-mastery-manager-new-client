@@ -48,7 +48,7 @@ Features
 
 
 
-# How to force download Champion.gg data
+## How to force download Champion.gg data
 
 --------
 
