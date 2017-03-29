@@ -36,7 +36,7 @@ Partial Class LoadingScreen
         Me.lblLoading.ForeColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(43, Byte), Integer))
         Me.lblLoading.Location = New System.Drawing.Point(181, 37)
         Me.lblLoading.Name = "lblLoading"
-        Me.lblLoading.Size = New System.Drawing.Size(128, 17)
+        Me.lblLoading.Size = New System.Drawing.Size(149, 17)
         Me.lblLoading.TabIndex = 0
         Me.lblLoading.Text = "Loading Champion Data"
         '
@@ -45,7 +45,7 @@ Partial Class LoadingScreen
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(106, Byte), Integer))
-        Me.BackgroundImage = Global.LoLMasteryManager.My.Resources.Resources.letoltes_bg
+        Me.BackgroundImage = Global.LoLMasteryManager.My.Resources.Resources.letoltes_bg1
         Me.ClientSize = New System.Drawing.Size(525, 100)
         Me.Controls.Add(Me.lblLoading)
         Me.DoubleBuffered = True

@@ -62,6 +62,10 @@ Public Class MasteryAssigner
 
             Keyboard.Type(name)
 
+            Threading.Thread.Sleep(100)
+
+            SendKeys.Send("{ENTER}")
+
         Catch ex As Exception
 
             Throw

@@ -198,6 +198,14 @@ Public Class Main
 
     End Sub
 
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) 
+
+    End Sub
+
 #If DEBUG Then
 
     Private Sub _Timer_Elapsed(sender As Object, e As ElapsedEventArgs) Handles _Timer.Elapsed

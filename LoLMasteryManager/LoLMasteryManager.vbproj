@@ -26,7 +26,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <SupportUrl>https://dewster.hu</SupportUrl>
     <PublisherName>Dewster</PublisherName>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -75,7 +75,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6DC06543A0200734D7B62FF69133343FAC07F3C2</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>1B5248108A7DE96A880C9ABF9F8233B82D80D65C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>LoLMasteryManager_TemporaryKey.pfx</ManifestKeyFile>
@@ -197,20 +197,23 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Masteries.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\letoltes_bg.png" />
+    <None Include="Resources\twitter.png" />
+    <None Include="Resources\reddit-social-logo-character.png" />
+    <None Include="Resources\github-logo.png" />
+    <None Include="LoLMasteryManager_1_TemporaryKey.pfx" />
     <None Include="LoLMasteryManager_TemporaryKey.pfx" />
+    <None Include="Resources\letoltes_bg.png" />
     <None Include="Resources\gomb.png" />
     <None Include="Resources\bg1.png" />
-    <None Include="Resources\bg.png" />
     <None Include="app.manifest" />
     <Content Include="Coordinates.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

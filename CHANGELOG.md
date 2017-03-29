@@ -3,6 +3,13 @@ Changelog
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2017-03-02
+### Update
+- Update gfx.
+
+## [1.0.0] - 2017-03-02
+### Fixed
+- Fix Champion Select mastery page name.
 
 ## [1.0.0] - 2017-03-02
 ### Fixed
@@ -10,7 +17,7 @@ All notable changes to this project will be documented in this file.
 
 * * *
 ### Added
-- Small srceen size support (1024 x 576)
+- All srceen size support
 
 
 

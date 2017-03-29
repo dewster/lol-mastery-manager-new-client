@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4A3BEAA1BE7C94258E091626CDCB751F"
+        "MsmKey" = "8:_0328875D54A540B6ADC5F833D3EC2B05"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5E32C60D01E13FA2E794F258FBC862F9"
+        "MsmKey" = "8:_294D5698C7C50E28B7586FD0C49674A7"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,18 +33,18 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8249E31BA5C18FE8CC2A42143DE97336"
-        "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_97B38A7C5E81016B3E292C0719A04229"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_C71E791DF297CA51762451CEFA3BAD03"
+        "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
@@ -52,19 +52,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8249E31BA5C18FE8CC2A42143DE97336"
+        "OwnerKey" = "8:_C71E791DF297CA51762451CEFA3BAD03"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4A3BEAA1BE7C94258E091626CDCB751F"
+        "OwnerKey" = "8:_294D5698C7C50E28B7586FD0C49674A7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5E32C60D01E13FA2E794F258FBC862F9"
+        "OwnerKey" = "8:_0328875D54A540B6ADC5F833D3EC2B05"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -168,45 +168,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4A3BEAA1BE7C94258E091626CDCB751F"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_4A3BEAA1BE7C94258E091626CDCB751F"
-                    {
-                    "Name" = "8:WindowsInput.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:WindowsInput.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5E32C60D01E13FA2E794F258FBC862F9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0328875D54A540B6ADC5F833D3EC2B05"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5E32C60D01E13FA2E794F258FBC862F9"
+                    "_0328875D54A540B6ADC5F833D3EC2B05"
                     {
                     "Name" = "8:HtmlAgilityPack.dll"
                     "Attributes" = "3:512"
@@ -230,20 +199,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8249E31BA5C18FE8CC2A42143DE97336"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_294D5698C7C50E28B7586FD0C49674A7"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8249E31BA5C18FE8CC2A42143DE97336"
+                    "_294D5698C7C50E28B7586FD0C49674A7"
                     {
-                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Name" = "8:WindowsInput.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "SourcePath" = "8:WindowsInput.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
@@ -275,6 +244,37 @@
                     }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C71E791DF297CA51762451CEFA3BAD03"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C71E791DF297CA51762451CEFA3BAD03"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
@@ -348,15 +348,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LoL Mastery Manager"
-        "ProductCode" = "8:{F2732451-12DD-4DE5-8BC2-81E1D5627852}"
-        "PackageCode" = "8:{E0B1128B-0576-4431-B8CE-D518369B95B3}"
+        "ProductCode" = "8:{EA45E8E4-F897-48FD-ADEF-6427852C185D}"
+        "PackageCode" = "8:{1557472B-4EE8-4FA5-B169-1EA54CD5B0EC}"
         "UpgradeCode" = "8:{DDAFDC7D-36CD-44C7-83A9-C7757C7ACF8D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.5.0"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.1"
         "Manufacturer" = "8:Dewster"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -831,8 +831,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:WARNING: This computer program is protected by copyright law and international treaties. Unauthorized duplication or distribution of this program, or any portion of it, may result in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible under the law."
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
