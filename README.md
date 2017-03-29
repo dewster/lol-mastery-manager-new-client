@@ -20,7 +20,7 @@ A tool for managing mastery pages in League of Legends. Inspired by [Championify
 
 
 
-![screenshot ](http://dewster.hu/git/Screenshot.png)
+
 
 
 
