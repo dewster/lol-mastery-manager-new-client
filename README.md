@@ -14,6 +14,7 @@
 
 > **NOTICE:** Work all screen size .
 
+![screenshot ](http://dewster.hu/git/Screenshot.png)
 
 
 A tool for managing mastery pages in League of Legends. Inspired by [Championify](https://github.com/dustinblackman/Championify).
