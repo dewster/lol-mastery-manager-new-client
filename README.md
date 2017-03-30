@@ -25,13 +25,6 @@ A tool for managing mastery pages in League of Legends. Inspired by [Championify
 
 
 
-[See it in action! -> Menu](https://raw.githubusercontent.com/dewster/lol-mastery-manager-master-new-client/master/Example%201%20-%20Menu.gif)
-
-
-
-
-
-[See it in action! -> In Game](https://raw.githubusercontent.com/dewster/lol-mastery-manager-master-new-client/master/Example%201%20-%20In%20Game.gif)
 
 
 
