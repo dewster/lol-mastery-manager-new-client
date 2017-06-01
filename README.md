@@ -1,4 +1,4 @@
-# League Of Legends Mastery Manager v1.1
+# League Of Legends Mastery Manager v1.1 [UPDATE W.I.P.]
 
 ============================================================================
 
