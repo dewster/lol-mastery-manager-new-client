@@ -9,22 +9,22 @@
 
             Public Structure Small
 
-                Public Const X As Double = ClientSize.Small.Width / 1185
-                Public Const Y As Double = ClientSize.Small.Height / 125
+                Public Const X As Double = ClientSize.Small.Width / 1112
+                Public Const Y As Double = ClientSize.Small.Height / 120
 
             End Structure
 
             Public Structure Medium
 
-                Public Const X As Double = ClientSize.Medium.Width / 1185
-                Public Const Y As Double = ClientSize.Medium.Height / 125
+                Public Const X As Double = ClientSize.Medium.Width / 1112
+                Public Const Y As Double = ClientSize.Medium.Height / 120
 
             End Structure
 
             Public Structure Large
 
-                Public Const X As Double = ClientSize.Large.Width / 1185
-                Public Const Y As Double = ClientSize.Large.Height / 125
+                Public Const X As Double = ClientSize.Large.Width / 1112
+                Public Const Y As Double = ClientSize.Large.Height / 120
 
             End Structure
 

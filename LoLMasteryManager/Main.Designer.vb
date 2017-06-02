@@ -169,6 +169,7 @@ Partial Class Main
         Me.Controls.Add(Me.cboChampion)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(358, 197)
+        Me.MinimumSize = New System.Drawing.Size(358, 197)
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "LoL Mastery Manager"

@@ -15,13 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0328875D54A540B6ADC5F833D3EC2B05"
-        "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_294D5698C7C50E28B7586FD0C49674A7"
+        "MsmKey" = "8:_1C0DA5F22D129CEEAE951BE032449739"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,13 +27,25 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8B21236A303D87562D430E0C572E3FE4"
+        "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D83A8EF072D45BCB4979EB69FDE2685"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_97B38A7C5E81016B3E292C0719A04229"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C71E791DF297CA51762451CEFA3BAD03"
+        "MsmKey" = "8:_DFC60025C1E4E5FDCF80D40E5A9F1300"
         "OwnerKey" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -52,19 +58,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C71E791DF297CA51762451CEFA3BAD03"
+        "OwnerKey" = "8:_DFC60025C1E4E5FDCF80D40E5A9F1300"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_294D5698C7C50E28B7586FD0C49674A7"
+        "OwnerKey" = "8:_1C0DA5F22D129CEEAE951BE032449739"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0328875D54A540B6ADC5F833D3EC2B05"
+        "OwnerKey" = "8:_8B21236A303D87562D430E0C572E3FE4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -132,10 +138,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5.2"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    "Name" = "8:Microsoft .NET Framework 4.5.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5.2"
                     }
                 }
             }
@@ -168,14 +174,45 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0328875D54A540B6ADC5F833D3EC2B05"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1C0DA5F22D129CEEAE951BE032449739"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_1C0DA5F22D129CEEAE951BE032449739"
+                    {
+                    "Name" = "8:WindowsInput.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:WindowsInput.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8B21236A303D87562D430E0C572E3FE4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0328875D54A540B6ADC5F833D3EC2B05"
+                    "_8B21236A303D87562D430E0C572E3FE4"
                     {
                     "Name" = "8:HtmlAgilityPack.dll"
                     "Attributes" = "3:512"
@@ -199,21 +236,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_294D5698C7C50E28B7586FD0C49674A7"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8D83A8EF072D45BCB4979EB69FDE2685"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_294D5698C7C50E28B7586FD0C49674A7"
-                    {
-                    "Name" = "8:WindowsInput.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:WindowsInput.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\LoLMasteryManager\\LoLMasteryManager.ico"
+            "TargetName" = "8:LoLMasteryManager.ico"
             "Tag" = "8:"
             "Folder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
             "Condition" = "8:"
@@ -227,7 +253,7 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_97B38A7C5E81016B3E292C0719A04229"
@@ -261,14 +287,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C71E791DF297CA51762451CEFA3BAD03"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DFC60025C1E4E5FDCF80D40E5A9F1300"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C71E791DF297CA51762451CEFA3BAD03"
+                    "_DFC60025C1E4E5FDCF80D40E5A9F1300"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -301,7 +327,7 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_87C6B4ECEA4D4278B065059E712569EC"
             {
             "Name" = "8:#1916"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:DesktopFolder"
@@ -313,7 +339,7 @@
             {
             "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
@@ -324,7 +350,7 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_D359E2C72EBC4C969852546BC454F784"
             {
             "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:ProgramMenuFolder"
@@ -349,7 +375,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LoL Mastery Manager"
         "ProductCode" = "8:{EA45E8E4-F897-48FD-ADEF-6427852C185D}"
-        "PackageCode" = "8:{1557472B-4EE8-4FA5-B169-1EA54CD5B0EC}"
+        "PackageCode" = "8:{9FE55EC1-6342-464A-A451-CA308F1422C2}"
         "UpgradeCode" = "8:{DDAFDC7D-36CD-44C7-83A9-C7757C7ACF8D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -469,32 +495,32 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E22A3CDF95FE468894855D326A14C5EC"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_38B7D3E0D8A94AA9946188E1521A2D95"
             {
             "Name" = "8:LoL Mastery Manager"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:32512"
+            "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
             "Folder" = "8:_87C6B4ECEA4D4278B065059E712569EC"
             "WorkingFolder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
-            "Icon" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
+            "Icon" = "8:_8D83A8EF072D45BCB4979EB69FDE2685"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EB562617C4FE4D65A967D48845C2399A"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F881C308910C49CE8FFDAD05B785FD41"
             {
             "Name" = "8:LoL Mastery Manager"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:32512"
+            "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
             "Folder" = "8:_D359E2C72EBC4C969852546BC454F784"
             "WorkingFolder" = "8:_BD99C2C140E146FDBA4A8320F80F9972"
-            "Icon" = "8:_81C7BBB3115E496B998A7EBFD775EFDD"
+            "Icon" = "8:_8D83A8EF072D45BCB4979EB69FDE2685"
             "Feature" = "8:"
             }
         }
