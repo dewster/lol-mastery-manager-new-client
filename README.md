@@ -1,11 +1,11 @@
-# League Of Legends Mastery Manager v1.1 [UPDATE W.I.P.]
+# League Of Legends Mastery Manager v1.2 [UPDATED]
 
 ============================================================================
 
 
 | Version        | Description           | Download |
 | ------------- |:-------------:| -----:|
-| LoL Mastery Manager v1.1      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/tag/eng) |
+| LoL Mastery Manager v1.2      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/download/1.2/LoLMasteryManagerSetup.msi) |
 | LoL Mesterség Manager v1.1     | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues)      |  [![Github Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/tag/hun) |
 | Development     | - |  ![Github Releases](https://img.shields.io/badge/status-supported-9C27B0.svg?style=flat-square) |
 
