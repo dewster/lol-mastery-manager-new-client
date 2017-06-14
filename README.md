@@ -1,4 +1,4 @@
-# League Of Legends Mastery Manager v1.2
+# League Of Legends Mastery Manager v1.2.1
 
 ============================================================================
 
@@ -11,7 +11,7 @@
 
 
 
-> **NOTICE:** Work 7.11 Champ Select screen.
+> **NOTICE:** Work 7.12 Champ Select screen.
 >  
 
 ![screenshot ](http://dewster.hu/git/Screenshot1.png)
