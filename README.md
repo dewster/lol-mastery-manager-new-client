@@ -1,17 +1,18 @@
-# League Of Legends Mastery Manager v1.2
+# League Of Legends Mastery Manager v1.2.2
 
 ============================================================================
 
 
 | Version        | Description           | Download |
 | ------------- |:-------------:| -----:|
-| LoL Mastery Manager v1.2      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/download/1.2/LoLMasteryManagerSetup.msi) |
+| LoL Mastery Manager v1.2.2      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/download/1.2/LoLMasteryManagerSetup.msi) |
+| BETA LoL Mastery Manager v2    | - |  **Coming soon** |
 | Development     | - |  ![Github Releases](https://img.shields.io/badge/status-supported-9C27B0.svg?style=flat-square) |
 
 
 
 
-> **NOTICE:** Work 7.11 Champ Select screen.
+> **NOTICE:** Tested 2017/06/21
 >  
 
 ![screenshot ](http://dewster.hu/git/Screenshot1.png)
@@ -66,7 +67,7 @@ Calculating the positioning of the mastery trees is hard to get right for all sc
 
 ```
 
-WORK ALL SCREEN SIZE || 2017.06.04
+WORK ALL SCREEN SIZE || 2017.06.21
 
 ```
 

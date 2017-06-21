@@ -2,6 +2,11 @@ Changelog
 =========
 
 All notable changes to this project will be documented in this file.
+## [1.2.2] - 2017-06-21
+### Update
+- Update coordinate in champion select "table"
+- Update check & download integrated
+
 
 ## [1.2.0] - 2017-06-04
 ### Update

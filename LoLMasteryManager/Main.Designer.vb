@@ -34,6 +34,8 @@ Partial Class Main
         Me.chkInChampionSelect = New System.Windows.Forms.CheckBox()
         Me.lblVersion = New System.Windows.Forms.LinkLabel()
         Me.lblClientVersion = New System.Windows.Forms.LinkLabel()
+        Me.updatebutton = New System.Windows.Forms.LinkLabel()
+        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.SuspendLayout()
         '
         'cboChampion
@@ -150,6 +152,30 @@ Partial Class Main
         Me.lblClientVersion.Text = "Patch 1.11"
         Me.lblClientVersion.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(192, Byte), Integer))
         '
+        'updatebutton
+        '
+        Me.updatebutton.ActiveLinkColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.updatebutton.AutoSize = True
+        Me.updatebutton.BackColor = System.Drawing.Color.Transparent
+        Me.updatebutton.LinkColor = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(182, Byte), Integer), CType(CType(43, Byte), Integer))
+        Me.updatebutton.Location = New System.Drawing.Point(121, 136)
+        Me.updatebutton.Name = "updatebutton"
+        Me.updatebutton.Size = New System.Drawing.Size(90, 13)
+        Me.updatebutton.TabIndex = 11
+        Me.updatebutton.TabStop = True
+        Me.updatebutton.Text = "UPDATE CHECK"
+        Me.updatebutton.VisitedLinkColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(192, Byte), Integer))
+        '
+        'WebBrowser1
+        '
+        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.WebBrowser1.Location = New System.Drawing.Point(0, 0)
+        Me.WebBrowser1.MaximumSize = New System.Drawing.Size(1, 1)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(1, 1)
+        Me.WebBrowser1.Name = "WebBrowser1"
+        Me.WebBrowser1.Size = New System.Drawing.Size(1, 1)
+        Me.WebBrowser1.TabIndex = 12
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -157,6 +183,8 @@ Partial Class Main
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(67, Byte), Integer), CType(CType(106, Byte), Integer))
         Me.BackgroundImage = Global.LoLMasteryManager.My.Resources.Resources.bg1
         Me.ClientSize = New System.Drawing.Size(342, 158)
+        Me.Controls.Add(Me.WebBrowser1)
+        Me.Controls.Add(Me.updatebutton)
         Me.Controls.Add(Me.lblClientVersion)
         Me.Controls.Add(Me.lblVersion)
         Me.Controls.Add(Me.chkInChampionSelect)
@@ -188,4 +216,6 @@ Partial Class Main
     Friend WithEvents chkInChampionSelect As CheckBox
     Friend WithEvents lblVersion As LinkLabel
     Friend WithEvents lblClientVersion As LinkLabel
+    Friend WithEvents updatebutton As LinkLabel
+    Friend WithEvents WebBrowser1 As WebBrowser
 End Class

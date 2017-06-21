@@ -12,6 +12,7 @@ Public Class Main
     )
     End Sub
 
+
     Private _MasteryManager As New MasteryManager
 
     Private Sub Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -44,6 +45,7 @@ Public Class Main
 
     End Sub
 
+    
     Private Sub InitializeChampions()
 
         With cboChampion
@@ -198,13 +200,32 @@ Public Class Main
 
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) 
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) 
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub updatebutton_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles updatebutton.LinkClicked
+        CheckForUpdates()
+
+    End Sub
+    Public Sub CheckForUpdates()
+        Dim request As System.Net.HttpWebRequest = CType(System.Net.HttpWebRequest.Create("https://dl.dropboxusercontent.com/s/8h8o1pb0dhwhqkd/version.txt"), Net.HttpWebRequest)
+        Dim response As System.Net.HttpWebResponse = CType(request.GetResponse(), Net.HttpWebResponse)
+        Dim sr As System.IO.StreamReader = New System.IO.StreamReader(response.GetResponseStream())
+        Dim newestversion As String = sr.ReadToEnd()
+        Dim currentversion As String = Application.ProductVersion
+        If newestversion.Contains(currentversion) Then
+            MsgBox("You are up todate!")
+        Else
+            MsgBox("There is a new update we, will download it now for you.")
+            WebBrowser1.Navigate("https://dl.dropbox.com/s/lm7iaegv3w0ht7q/LoLMasteryManagerSetup.msi")
+        End If
+    End Sub
+
 
 #If DEBUG Then
 
