@@ -1,4 +1,4 @@
-# League Of Legends Mastery Manager v1.2.1
+# League Of Legends Mastery Manager v1.2.1 [**FIXING STARTED**]
 
 ============================================================================
 
@@ -11,7 +11,7 @@
 
 
 
-> **NOTICE:** Work 7.12 Champ Select screen.
+> **NOTICE:** Riot update AGAIN Mastery position.. fix start 2017/06/21
 >  
 
 ![screenshot ](http://dewster.hu/git/Screenshot1.png)
