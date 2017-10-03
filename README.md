@@ -17,7 +17,9 @@
 > **NOTICE:** Rune Reforged version development started
 >  
 
-![screenshot ](http://dewster.hu/git/Screenshot1.png)
+![screenshot ](http://dewster.hu/git/Screenshot.png)
+
+
 ![screenshot ](http://dewster.hu/git/Screenshot2.png)
 
 
