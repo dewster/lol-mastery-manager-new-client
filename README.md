@@ -1,21 +1,24 @@
-# League Of Legends Mastery Manager v1.2.2
+# League Of Legends Mastery Manager v2
 
 ============================================================================
 
 
 | Version        | Description           | Download |
 | ------------- |:-------------:| -----:|
-| LoL Mastery Manager v1.2.2      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/download/1.2.2/LoLMasteryManagerSetup.msi) |
-| BETA LoL Mastery Manager v2    |  |  [![Github All Releases](https://img.shields.io/badge/Beta%20Download--orange.svg)](https://github.com/dewster/lol-mastery-manager-new-client/releases/download/beta/LoLMasteryManagerSetup.msi ) |
+| LoL Mastery Manager v2      | [![GitHub issues](https://img.shields.io/github/issues/dewster/lol-mastery-manager-master-new-client.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-master-new-client/issues) | [![Github All Releases](https://img.shields.io/badge/Download--feb62b.svg?style=flat-square)](https://github.com/dewster/lol-mastery-manager-new-client/releases/download/beta/LoLMasteryManagerSetup.msi) |
+| BETA LoL Mastery Manager v2.1 (RUNE REFORGED)    |  |  ![Github All Releases](https://img.shields.io/badge/Beta%20Download--orange.svg) |
 | Development     | - |  ![Github Releases](https://img.shields.io/badge/status-supported-9C27B0.svg?style=flat-square) |
 
 
 
 
-> **NOTICE:** Tested 2017/06/21
+> **NOTICE:** Tested 2017/10/03 || v2 Work all Screen Size
+
+> **NOTICE:** Rune Reforged version development started
 >  
 
 ![screenshot ](http://dewster.hu/git/Screenshot1.png)
+![screenshot ](http://dewster.hu/git/Screenshot2.png)
 
 
 A tool for managing mastery pages in League of Legends. Inspired by [Championify](https://github.com/dustinblackman/Championify).
