@@ -17,10 +17,7 @@
 > **NOTICE:** Rune Reforged version development started
 >  
 
-![screenshot ](http://dewster.hu/git/Screenshot.png)
-
-
-![screenshot ](http://dewster.hu/git/Screenshot2.png)
+![screenshot ](http://dewster.hu/git/Screenshot.png) ![screenshot ](http://dewster.hu/git/Screenshot2.png)
 
 
 A tool for managing mastery pages in League of Legends. Inspired by [Championify](https://github.com/dustinblackman/Championify).
